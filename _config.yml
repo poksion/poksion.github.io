@@ -18,21 +18,39 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+locale: "ko-KR"
+title: poklog
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  pok with passion
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  poksion
 
 # Build settings
-theme: minima
+# theme를 통해 기본 layout (_layout) 이 결정된다.
+# _layout이 있다면 theme는 필요 없다.
+#theme: minima
+# /feed.xml을 통해서 rss 제공
+# jekyll-seo-tag는 minima theme에 포함되어 있으나 theme를 안쓰면 수동으로 추가
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll/tagging
+#  - jekyll-paginate-v2
+
+# Pagination Settings
+#pagination:
+#  enabled: true
+#  per_page: 1
+#  permalink: '/page/:num/'
+#  title: ' - page :num'
+#  limit: 0
+#  sort_field: 'date'
+#  sort_reverse: true
+
+# tagging
+tag_page_layout: tag
+tag_page_dir: blog/tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -41,7 +59,6 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
@@ -53,3 +70,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# custom exclude item
+exclude:
+  - scripts/
+  - viewtype-exp/

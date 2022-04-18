@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <p>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">poksion</span>
+      &nbsp;|&nbsp;
+      <time datetime="{{ site.posts.first.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+    </p>
+  </header>
+
+  <div itemprop="articleBody">
+    {{ content }}
+  </div>
+
+</article>
