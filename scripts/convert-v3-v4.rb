@@ -27,6 +27,11 @@ def convert
 
         refined_content = contents.sub(reg_exp_title, '').sub(reg_exp_tag, '').gsub("_img/", "/assets/img/post/")
         refined_content = refined_content.gsub(reg_exp_md_date, "/blog/\\1/\\2/\\3/").gsub(".md)", ".html)")
+        refined_content = refined_content.gsub("<pre>panel-start</pre>", "<div class=\"panel\">");
+        refined_content = refined_content.gsub("<pre>panel-end</pre>", "</div>");
+        refined_content = refined_content.gsub("<pre>panel-hide-start</pre>", "\n<!--");
+        refined_content = refined_content.gsub("<pre>panel-hide-end</pre>", "-->\n");
+
         refined_content = front_matters + refined_content
         refined_file_name = "../_posts/" + base_name.sub(date, yyyy_mm_dd)
 

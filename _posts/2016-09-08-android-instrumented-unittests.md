@@ -16,7 +16,8 @@ API 버전 24부터, 실제 디바이스에서 테스트하는 "Instrumentation"
  * dependenceis에 (현재 최신 버전이 0.4인) support.test를 추가해준다.
  * defaultConfig에 testInstrumentationRunner를 명시해준다.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```
 dependencies {
@@ -35,7 +36,8 @@ android {
 }
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/7d69692e62b40d13b6bb20e10f9acd63.js"></script>
 
@@ -45,7 +47,8 @@ android {
 
 Instrument Test에서 Acitivty를 실행하는 방법도 깔끔해졌다. ActivityTestRule을 public final로 선언한후 launch해주면 끝.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```java
 @RunWith(AndroidJUnit4.class)
@@ -64,7 +67,8 @@ public class MainActivityTest {
 }
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/49226a145e3fa67825d71f06724b7899.js"></script>
 

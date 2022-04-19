@@ -19,9 +19,9 @@ Seperating Configuration from Usage
 
 저 문서를 한줄로 요약하자면,
 
-<pre>panel-start</pre>
+<div class="panel">
 사용과 설정은 나누어야 한다
-<pre>panel-end</pre>
+</div>
 
 라고 할 수 있겠다.
 

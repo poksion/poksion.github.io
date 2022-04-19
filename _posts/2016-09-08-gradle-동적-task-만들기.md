@@ -8,7 +8,8 @@ tags: 프로그래밍  하드보일드
 
 안드로이드에서 flavor를 많이 만들다보면, 그에 따라 여러가지 기계적으로 추가해야 되는 task 들이 있다. 이러한 task들은 추가된 flavor (variant)에 대응되게 동적으로 만들 수 있다.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```gradle
 ...
@@ -44,7 +45,8 @@ android.applicationVariants.all { variant ->
 ...
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/b642370682d2f3a7d6e99d4d58dbb115.js"></script>
 

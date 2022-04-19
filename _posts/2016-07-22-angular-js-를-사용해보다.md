@@ -28,7 +28,8 @@ Scope을 정하는 많은 Best practices 가 있겠지만, 나는 기본적으�
 
 Controller 단위로 Scope을 정하는것은 간단한데, Scope을 만들 div에서 ng-controller로 Controller 이름을 정하고 angular module에서 더하는 controller에 해당 scope을 연결해서 사용하면 된다.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```html
 <body ng-app="nasFileManager" ng-controller="FileController" ng-init="initList(2)">
@@ -41,13 +42,15 @@ Controller 단위로 Scope을 정하는것은 간단한데, Scope을 만들 div�
          ...
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/efe6547863e42fdec9db952d7450c827.js"></script>
 
 위 예제는 전체 body에 controller가 하나만 있는 상황인데, module에 추가한 "FileController"에서 해당 Scope 아래에 있는 ng-model="fileAll"이라든가, ng-click="checkAllFiles()"등을 다룰수 있다. (ng-init="initList(2)"는 서버사이드에서 클라이언트 사이드 웹앱에게, "2"라는 상수 변수를 전달하기 위해 있는 메소드인데, 해당 Scope이 시작될때 처음으로 시작되는 init 함수이다)
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```javascript
 angular.
@@ -73,7 +76,8 @@ angular.
     ...
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/8808c4e44b38f25a7e3a2706a1e3f2e3.js"></script>
 
@@ -87,7 +91,8 @@ Scope안에서 사용했던 checkAllFiles()는 Controller안에서 저렇게 정
 
 ab-base64는 외부에서 구현한 서비스 객체인데, 이러한 서비스등을 Factory를 통해 구현할 수 있다.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```javascript
 angular.
@@ -111,13 +116,15 @@ angular.
   ...
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/cd02a27eb37c2555767c6d3d8d3783ec.js"></script>
 
 위와 같이 dispatcher라는 서비스를 factory로 구현했다면, base64를 DI하여 사용했듯이 dispatcher도 DI하여 사용할 수 있다.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```javascript
   // resultActionCreator에서 dispatcher 서비스를 사용
@@ -133,7 +140,8 @@ angular.
   ...
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/4629d0abce0edb0573ac62bea50a34fc.js"></script>
 
@@ -145,7 +153,8 @@ angular.
 
 AngularJS는 directive라는 기능으로 이러한 모듈들을 Component화 할 수 있게 해준다.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```html
   <div class="row">
@@ -155,13 +164,15 @@ AngularJS는 directive라는 기능으로 이러한 모듈들을 Component화 �
   </div>
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/64265249b4ca76c6917e17f4893977b1.js"></script>
 
 result-loader 컴포넌트를 사용한 경우에 html에서는 위와 같이 깔끔하게 모듈화가 된다.
 
-<pre>panel-hide-start</pre>
+
+<!--
 
 ```javascript
 angular.
@@ -188,7 +199,8 @@ angular.
   }]);
 ```
 
-<pre>panel-hide-end</pre>
+-->
+
 
 <script src="https://gist.github.com/poksion/f404c2fed9d9ea5890acdc5166067c76.js"></script>
 

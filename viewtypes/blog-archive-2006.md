@@ -1,18 +1,11 @@
 ---
-layout: default
-title: About
+layout: archive
 permalink: /blog/archive/2006
+year: 2006
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+2006년에는 (지금 생각해보면 정말 운이 좋게도) 좋은 회사에 입사해서 열심히 알아보고 열심히 공부하고 열심히 삽질했던 행복했던 시기인거 같다. 학교를 잠시 쉬고(휴학) 회사를 다닌거기 때문에 풀타임으로 개발을 했었고 내게 맡겨진 툴 개발을 정말 지금 생각해보면 신기할 정도로 주도적으로 해낸것 같다.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+이때에는 그냥 잘한다잘한다 하니까 잘 몰랐지만, 내가 이런 후임을 받았다면 조금은 당돌해서 당황하면서도 열심히 하는 모습이 이뻤을것 같기는 하다.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+개발에 있어서 매우 행복했던 시기로 기억에 남아있으면서, 다른 한편으로는 다음 단계로의 성장에 있어서 조금은 장애물이기도 했다. 사람은 잘했던 추억에 사로 잡히고 더 나은 방향으로 성장하기를 마음속 깊은곳에서 거부하는 경향이 있는것 같다.

@@ -14,7 +14,7 @@ tags: 컴퓨터
 
 현재 One-Shopping(-_-) 할수 있는 플러그인들은 다음과 같다.
 
-<pre>panel-start</pre>
+<div class="panel">
 <pre>
 Projects Included In The Release
     * Business Intelligence and Reporting Tools (BIRT) Project
@@ -28,7 +28,7 @@ Projects Included In The Release
     * Web Tools Platform
     * Visual Editor
 </pre>
-<pre>panel-end</pre>
+</div>
 
 [Callisto Simultaneous Release 홈페이지](http://www.eclipse.org/projects/callisto.php)
 

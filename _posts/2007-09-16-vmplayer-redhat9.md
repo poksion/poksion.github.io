@@ -15,7 +15,7 @@ vmdk 생성
 > qemu-img.exe create -f vmdk redhat.vmdk 4G
 
 vmx 파일 내용
-<pre>panel-start</pre>
+<div class="panel">
 <pre>
 config.version = "8"
 virtualHW.version = "3"
@@ -59,7 +59,7 @@ tools.remindInstall = "TRUE"
 #gui.fullScreenAtPowerOn = "TRUE"
 
 </pre>
-<pre>panel-end</pre>
+</div>
 
 특이한게 레드햇9는 여러장의 cd로 구성되어 있는데, cd교체를 단순히 vmx에서 cd-rom으로 잡았던 ide 이미지 파일 이름과 같게 다음 이미지 파일의 이름을 바꾸는것으로 해결할 수 있었다.
 
