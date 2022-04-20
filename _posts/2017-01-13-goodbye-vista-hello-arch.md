@@ -2,6 +2,7 @@
 layout: post
 title: "Goodbye Vista, Hello Arch"
 date: 2017-01-13 10:48:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  일상이야기
 ---

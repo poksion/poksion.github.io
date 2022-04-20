@@ -2,6 +2,7 @@
 layout: post
 title: "Inner Class의 완전(명시적) 특화"
 date: 2008-09-02 20:36:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

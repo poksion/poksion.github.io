@@ -2,6 +2,7 @@
 layout: post
 title: "썬더버드 ThreadVis"
 date: 2009-04-06 22:08:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기  컴퓨터
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Template Non-Type Parameter"
 date: 2007-08-09 00:10:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  하드보일드
 ---

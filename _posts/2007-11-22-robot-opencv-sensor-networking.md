@@ -2,6 +2,7 @@
 layout: post
 title: "Robot, OpenCV and Sensor Networking"
 date: 2007-11-22 01:59:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기  컴퓨터
 ---

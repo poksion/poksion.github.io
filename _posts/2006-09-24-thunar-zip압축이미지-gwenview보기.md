@@ -2,6 +2,7 @@
 layout: post
 title: "thunar에서 zip으로 압축된 이미지 파일을 gwenview로 보기"
 date: 2006-09-24 00:57:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

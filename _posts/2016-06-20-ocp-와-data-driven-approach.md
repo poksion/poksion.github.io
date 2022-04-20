@@ -2,6 +2,7 @@
 layout: post
 title: "OCP와 Data Driven Approach"
 date: 2016-06-20 15:28:00 +0900
+author: poksion
 categories: blog
 tags: 하드보일드  프로그래밍
 ---

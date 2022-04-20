@@ -1,20 +1,42 @@
 ---
 layout: default
 ---
+{% assign currentPage = site.posts.first %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1 itemprop="name headline">{{ site.posts.first.title | escape }}</h1>
+    <h1 itemprop="name headline">{{ currentPage.title | escape }}</h1>
     <p>
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">poksion</span>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ currentPage.author }}</span>
       &nbsp;|&nbsp;
-      <time datetime="{{ site.posts.first.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ site.posts.first.date | date: "%b %-d, %Y" }}
+      <time datetime="{{ currentPage.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ currentPage.date | date: "%b %-d, %Y" }}
       </time>
     </p>
   </header>
 
   <div itemprop="articleBody">
-    {{ site.posts.first.content }}
+    {{ currentPage.content }}
+  </div>
+
+  <div class="small-12 columns">
+    <div class="row">
+      <div class="small-6 columns">
+        {% if currentPage.next.url %}
+        <p class="text-right">
+          <a href="{{ currentPage.next.url }}">&laquo {{ currentPage.next.title }}</a>
+          &nbsp;&nbsp;
+        </p>
+        {% endif %}
+      </div>
+      <div class="small-6 columns">
+        {% if currentPage.previous.url %}
+        <p class="text-left">
+          &nbsp;&nbsp;
+          <a href="{{ currentPage.previous.url }}">{{ currentPage.previous.title }} &raquo</a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
   </div>
 
 </article>

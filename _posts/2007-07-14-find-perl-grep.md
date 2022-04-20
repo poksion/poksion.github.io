@@ -2,6 +2,7 @@
 layout: post
 title: "find / perl / grep"
 date: 2007-07-14 10:27:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  프로그래밍
 ---

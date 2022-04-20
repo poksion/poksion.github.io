@@ -2,6 +2,7 @@
 layout: post
 title: "Presenter와 Flux"
 date: 2016-07-05 22:07:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  안드로이드  하드보일드
 ---

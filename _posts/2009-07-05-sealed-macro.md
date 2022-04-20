@@ -2,6 +2,7 @@
 layout: post
 title: "Sealed Macro"
 date: 2009-07-05 06:50:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

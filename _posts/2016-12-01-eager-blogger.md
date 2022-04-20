@@ -2,6 +2,7 @@
 layout: post
 title: "Eager Blogger"
 date: 2016-12-01 00:58:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기
 ---

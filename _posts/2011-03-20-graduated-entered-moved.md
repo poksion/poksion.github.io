@@ -2,6 +2,7 @@
 layout: post
 title: "Graduated, Entered, and Moved"
 date: 2011-03-20 20:03:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기
 ---

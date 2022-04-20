@@ -2,6 +2,7 @@
 layout: post
 title: "C++ : vector / assign"
 date: 2007-11-23 12:46:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  하드보일드
 ---

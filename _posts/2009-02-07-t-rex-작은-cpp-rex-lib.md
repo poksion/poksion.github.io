@@ -2,6 +2,7 @@
 layout: post
 title: "T-Rex : 작은 C++ 정규표현식 라이브러리"
 date: 2009-02-07 21:25:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

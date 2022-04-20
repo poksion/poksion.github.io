@@ -2,6 +2,7 @@
 layout: post
 title: "모델링과 UML 그리고 dev-sync"
 date: 2015-07-01 14:43:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  프로그래밍
 ---

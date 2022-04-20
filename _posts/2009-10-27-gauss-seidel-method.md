@@ -2,6 +2,7 @@
 layout: post
 title: "Gauss-Seidel Method"
 date: 2009-10-27 20:46:00 +0900
+author: poksion
 categories: blog
 tags: 수학  프로그래밍
 ---

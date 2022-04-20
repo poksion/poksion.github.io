@@ -2,6 +2,7 @@
 layout: post
 title: "log-me refactoring 회고"
 date: 2016-06-14 18:16:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

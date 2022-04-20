@@ -2,6 +2,7 @@
 layout: post
 title: "Gradle 동적 task 만들기"
 date: 2016-09-08 09:20:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  하드보일드
 ---

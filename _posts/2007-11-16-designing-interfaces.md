@@ -2,6 +2,7 @@
 layout: post
 title: "Designing Interfaces"
 date: 2007-11-16 00:44:00 +0900
+author: poksion
 categories: blog
 tags: 책  컴퓨터
 ---

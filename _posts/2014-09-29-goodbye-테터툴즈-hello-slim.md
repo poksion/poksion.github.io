@@ -2,6 +2,7 @@
 layout: post
 title: "Goodbye 테터툴즈, Hello Slim"
 date: 2014-09-29 20:00:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기  프로그래밍
 ---

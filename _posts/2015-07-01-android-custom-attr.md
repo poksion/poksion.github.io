@@ -2,6 +2,7 @@
 layout: post
 title: "Android custom-attr"
 date: 2015-07-01 17:13:00 +0900
+author: poksion
 categories: blog
 tags: 안드로이드  컴퓨터  프로그래밍  하드보일드
 ---

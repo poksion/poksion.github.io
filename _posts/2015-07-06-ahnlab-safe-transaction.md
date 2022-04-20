@@ -2,6 +2,7 @@
 layout: post
 title: "AhnLab Safe Transaction"
 date: 2015-07-06 10:20:00 +0900
+author: poksion
 categories: blog
 tags: 성질
 ---

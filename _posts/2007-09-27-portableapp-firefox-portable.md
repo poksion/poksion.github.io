@@ -2,6 +2,7 @@
 layout: post
 title: "PortableApp - Firefox Portable"
 date: 2007-09-27 20:07:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

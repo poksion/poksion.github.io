@@ -2,6 +2,7 @@
 layout: post
 title: "From Fourier Series to Laplace Transform"
 date: 2010-09-30 02:30:00 +0900
+author: poksion
 categories: blog
 tags: 수학  흥미
 ---

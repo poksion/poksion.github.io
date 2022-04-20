@@ -2,6 +2,7 @@
 layout: post
 title: "Fat Model과 Service"
 date: 2015-03-27 16:32:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  하드보일드
 ---

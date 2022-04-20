@@ -2,6 +2,7 @@
 layout: post
 title: "Presenter간의 통신"
 date: 2017-09-20 17:47:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

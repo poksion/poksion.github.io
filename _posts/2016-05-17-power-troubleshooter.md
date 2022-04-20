@@ -2,6 +2,7 @@
 layout: post
 title: "Power-Troubleshooter"
 date: 2016-05-17 23:57:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

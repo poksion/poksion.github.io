@@ -2,6 +2,7 @@
 layout: post
 title: "병원건축 - 그 아름다운 당연성 / 디자인의 디자인"
 date: 2007-10-20 17:47:00 +0900
+author: poksion
 categories: blog
 tags: 책
 ---

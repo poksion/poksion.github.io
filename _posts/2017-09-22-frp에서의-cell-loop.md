@@ -2,6 +2,7 @@
 layout: post
 title: "FRP에서의 Cell Loop"
 date: 2017-09-22 16:49:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

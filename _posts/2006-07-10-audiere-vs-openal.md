@@ -2,6 +2,7 @@
 layout: post
 title: "Audiere vs OpenAL"
 date: 2006-07-10 07:50:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

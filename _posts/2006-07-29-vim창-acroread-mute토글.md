@@ -2,6 +2,7 @@
 layout: post
 title: "vim 윈도 위치설정 / acroread 설정 / 사운드 mute toggle"
 date: 2006-07-29 10:14:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

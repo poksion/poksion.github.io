@@ -2,6 +2,7 @@
 layout: post
 title: "vim modeline 삽질기"
 date: 2009-08-31 01:23:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

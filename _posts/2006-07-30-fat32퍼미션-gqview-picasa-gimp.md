@@ -2,6 +2,7 @@
 layout: post
 title: "fat32 퍼미션 문제 / gqview 및 picasa linux / gimp 확대 및 축소"
 date: 2006-07-30 21:12:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

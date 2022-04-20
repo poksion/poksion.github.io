@@ -2,6 +2,7 @@
 layout: post
 title: "lim(x->a) f(x) = L 의 증명"
 date: 2008-03-04 22:06:00 +0900
+author: poksion
 categories: blog
 tags: 수학
 ---

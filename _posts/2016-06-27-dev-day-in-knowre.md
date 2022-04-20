@@ -2,6 +2,7 @@
 layout: post
 title: "Dev-day in Knowre"
 date: 2016-06-27 02:06:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  일상이야기
 ---

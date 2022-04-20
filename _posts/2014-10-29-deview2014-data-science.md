@@ -2,6 +2,7 @@
 layout: post
 title: "Deview 2014 - Data science"
 date: 2014-10-29 13:40:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

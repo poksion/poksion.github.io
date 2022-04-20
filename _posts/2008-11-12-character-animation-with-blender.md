@@ -2,6 +2,7 @@
 layout: post
 title: "Introducing Character Animation with Blender"
 date: 2008-11-12 21:30:00 +0900
+author: poksion
 categories: blog
 tags: 책  컴퓨터
 ---

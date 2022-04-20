@@ -2,6 +2,7 @@
 layout: post
 title: "Private method Test에 대한 단상"
 date: 2016-02-29 10:14:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

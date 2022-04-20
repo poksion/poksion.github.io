@@ -2,6 +2,7 @@
 layout: post
 title: "liferea 와 리듬박스 // akregator 와 amarok"
 date: 2006-07-03 06:57:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기  컴퓨터
 ---

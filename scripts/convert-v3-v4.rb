@@ -18,6 +18,7 @@ def convert
         front_matters = front_matters + "layout: post\n"
         front_matters = front_matters + "title: \"#{title}\"\n"
         front_matters = front_matters + "date: #{yyyy_mm_dd} #{date[8..9]}:#{date[10..11]}:00 +0900\n"
+        front_matters = front_matters + "author: poksion\n"
         front_matters = front_matters + "categories: blog\n"
         front_matters = front_matters + "tags: #{tags}\n"
         front_matters = front_matters + "---\n"

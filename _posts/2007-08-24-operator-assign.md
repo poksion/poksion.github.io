@@ -2,6 +2,7 @@
 layout: post
 title: "operator="
 date: 2007-08-24 18:12:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  하드보일드
 ---

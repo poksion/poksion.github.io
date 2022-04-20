@@ -2,6 +2,7 @@
 layout: post
 title: "AppCompat 삽질기"
 date: 2016-06-25 11:35:00 +0900
+author: poksion
 categories: blog
 tags: 하드보일드  안드로이드  프로그래밍
 ---

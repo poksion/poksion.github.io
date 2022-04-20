@@ -2,6 +2,7 @@
 layout: post
 title: "집착 - Edge swipe gesture"
 date: 2016-05-03 21:02:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기  컴퓨터
 ---

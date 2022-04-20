@@ -2,6 +2,7 @@
 layout: post
 title: "Designing the User Interface (4th Edition)"
 date: 2007-09-27 21:24:00 +0900
+author: poksion
 categories: blog
 tags: 책
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Good Will Hunting #Scene01"
 date: 2006-06-28 22:00:00 +0900
+author: poksion
 categories: blog
 tags: 문화산업  영화  영어공부  흥미
 ---

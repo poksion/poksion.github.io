@@ -2,6 +2,7 @@
 layout: post
 title: "Career Cup 01 part1"
 date: 2016-12-01 01:14:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  알고리즘
 ---

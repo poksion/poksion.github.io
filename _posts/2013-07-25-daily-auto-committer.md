@@ -2,6 +2,7 @@
 layout: post
 title: "daily auto committer"
 date: 2013-07-25 15:41:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  일상이야기
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "dev-helper"
 date: 2016-09-08 11:41:00 +0900
+author: poksion
 categories: blog
 tags: Digital Nomad  프로그래밍
 ---

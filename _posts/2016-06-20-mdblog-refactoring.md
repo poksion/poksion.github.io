@@ -2,6 +2,7 @@
 layout: post
 title: "mdblog(poklog) refactoring"
 date: 2016-06-20 00:08:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

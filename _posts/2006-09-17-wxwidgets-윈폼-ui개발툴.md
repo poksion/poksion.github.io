@@ -2,6 +2,7 @@
 layout: post
 title: "wxWidgets 과 윈폼, 그리고 UI 개발툴"
 date: 2006-09-17 23:15:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

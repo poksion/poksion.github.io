@@ -2,6 +2,7 @@
 layout: post
 title: "Ending support of Public Folder"
 date: 2016-12-30 09:49:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기  성질
 ---

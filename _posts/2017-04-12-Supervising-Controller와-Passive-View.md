@@ -2,6 +2,7 @@
 layout: post
 title: "Supervising Controller와 Passive View"
 date: 2017-04-12 14:06:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

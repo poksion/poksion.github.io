@@ -2,6 +2,7 @@
 layout: post
 title: "Haar-like features and OpenCV"
 date: 2010-12-19 16:25:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  흥미  프로그래밍
 ---

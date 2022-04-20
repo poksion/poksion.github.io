@@ -2,6 +2,7 @@
 layout: post
 title: "SRP와 kludge class"
 date: 2016-06-14 11:57:00 +0900
+author: poksion
 categories: blog
 tags: 하드보일드  프로그래밍
 ---

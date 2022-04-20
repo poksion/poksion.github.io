@@ -2,6 +2,7 @@
 layout: post
 title: "글(gle) 프로젝트"
 date: 2015-07-10 16:13:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

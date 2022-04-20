@@ -2,6 +2,7 @@
 layout: post
 title: "Eclipse Callisto Simultaneous Release"
 date: 2007-11-27 00:46:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

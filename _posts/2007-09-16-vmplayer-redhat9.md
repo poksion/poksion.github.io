@@ -2,6 +2,7 @@
 layout: post
 title: "VMPlayer에 RedHat9.0 설치"
 date: 2007-09-16 21:11:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

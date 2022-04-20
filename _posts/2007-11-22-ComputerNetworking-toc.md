@@ -2,6 +2,7 @@
 layout: post
 title: "Computer Networking"
 date: 2007-11-22 03:02:00 +0900
+author: poksion
 categories: blog
 tags: 책
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Octave in Vista"
 date: 2009-10-09 22:48:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "gradle과 kotlin-android"
 date: 2016-06-14 17:36:00 +0900
+author: poksion
 categories: blog
 tags: 안드로이드  프로그래밍
 ---

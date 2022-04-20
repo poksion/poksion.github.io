@@ -2,6 +2,7 @@
 layout: post
 title: "quodlibet"
 date: 2006-07-10 23:19:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

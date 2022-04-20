@@ -2,6 +2,7 @@
 layout: post
 title: "우분투 generic kernel"
 date: 2007-02-18 18:08:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

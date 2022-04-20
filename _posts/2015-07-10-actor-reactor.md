@@ -2,6 +2,7 @@
 layout: post
 title: "Actor-Reactor"
 date: 2015-07-10 16:14:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  하드보일드
 ---

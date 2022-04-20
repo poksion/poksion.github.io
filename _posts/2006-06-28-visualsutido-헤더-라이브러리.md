@@ -2,6 +2,7 @@
 layout: post
 title: "Visual Studio 헤더 및 라이브러리 설정"
 date: 2006-06-28 15:49:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

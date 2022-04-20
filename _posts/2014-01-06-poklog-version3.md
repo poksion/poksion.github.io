@@ -2,6 +2,7 @@
 layout: post
 title: "poklog version 3"
 date: 2014-01-06 13:42:00 +0900
+author: poksion
 categories: blog
 tags: Digital Nomad  일상이야기  컴퓨터
 ---

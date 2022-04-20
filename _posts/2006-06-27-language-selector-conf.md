@@ -2,6 +2,7 @@
 layout: post
 title: "language-selector.conf"
 date: 2006-06-27 03:11:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

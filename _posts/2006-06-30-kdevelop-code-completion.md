@@ -2,6 +2,7 @@
 layout: post
 title: "KDevelop3 Code Completion DB 설정"
 date: 2006-06-30 22:59:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  프로그래밍
 ---

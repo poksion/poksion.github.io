@@ -2,6 +2,7 @@
 layout: post
 title: "svn set:keyword 삽질기"
 date: 2009-08-31 01:08:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

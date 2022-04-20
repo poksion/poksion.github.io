@@ -2,6 +2,7 @@
 layout: post
 title: "vim tips : 두개의 file을 diff 하는 방법"
 date: 2008-11-13 22:20:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  컴퓨터
 ---

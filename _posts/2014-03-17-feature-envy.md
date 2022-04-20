@@ -2,6 +2,7 @@
 layout: post
 title: "Feature Envy"
 date: 2014-03-17 11:39:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  컴퓨터  하드보일드
 ---

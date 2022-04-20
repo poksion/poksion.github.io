@@ -2,6 +2,7 @@
 layout: post
 title: "Cygwin emacs용 mule-ucs 설치"
 date: 2009-03-06 19:41:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

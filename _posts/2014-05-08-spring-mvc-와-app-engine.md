@@ -2,6 +2,7 @@
 layout: post
 title: "Spring MVC와 Google App Engine"
 date: 2014-05-08 11:14:00 +0900
+author: poksion
 categories: blog
 tags: Digital Nomad  프로그래밍  하드보일드
 ---

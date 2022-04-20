@@ -2,6 +2,7 @@
 layout: post
 title: "Android Theme와 Style"
 date: 2016-06-28 16:23:00 +0900
+author: poksion
 categories: blog
 tags: 하드보일드  프로그래밍  안드로이드
 ---

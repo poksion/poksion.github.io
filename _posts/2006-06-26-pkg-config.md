@@ -2,6 +2,7 @@
 layout: post
 title: "pkg-config"
 date: 2006-06-26 23:24:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터  프로그래밍  하드보일드
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Epsilon-delta definition of limits"
 date: 2014-09-28 21:23:00 +0900
+author: poksion
 categories: blog
 tags: 수학
 ---

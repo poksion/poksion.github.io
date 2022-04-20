@@ -2,6 +2,7 @@
 layout: post
 title: "Google Book Search"
 date: 2008-03-16 02:41:00 +0900
+author: poksion
 categories: blog
 tags: 일상이야기  컴퓨터
 ---

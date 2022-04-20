@@ -2,6 +2,7 @@
 layout: post
 title: "TortoiseSVN에서 키 방식으로 KLDP.net svn 사용하기"
 date: 2009-01-10 16:59:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

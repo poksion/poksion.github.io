@@ -2,6 +2,7 @@
 layout: post
 title: "VMWare Player 네트워크 설정"
 date: 2007-11-09 07:59:00 +0900
+author: poksion
 categories: blog
 tags: 컴퓨터
 ---

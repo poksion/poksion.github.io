@@ -2,6 +2,7 @@
 layout: post
 title: "AngularJS를 사용해보다"
 date: 2016-07-22 01:56:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

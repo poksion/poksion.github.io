@@ -2,6 +2,7 @@
 layout: post
 title: "CRTP와 멤버함수포인터"
 date: 2008-05-20 21:13:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍  하드보일드
 ---

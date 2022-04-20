@@ -2,6 +2,7 @@
 layout: post
 title: "vim fileformat 과 sln"
 date: 2007-04-30 13:50:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "Indexed families of sets"
 date: 2008-05-24 19:57:00 +0900
+author: poksion
 categories: blog
 tags: 수학
 ---

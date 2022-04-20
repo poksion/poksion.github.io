@@ -2,6 +2,7 @@
 layout: post
 title: "Visual Studio Express 한글판.."
 date: 2007-05-06 22:46:00 +0900
+author: poksion
 categories: blog
 tags: 프로그래밍
 ---

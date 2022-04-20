@@ -2,6 +2,7 @@
 layout: post
 title: "Presenter와 ViewController"
 date: 2016-06-29 14:05:00 +0900
+author: poksion
 categories: blog
 tags: 안드로이드  프로그래밍
 ---
