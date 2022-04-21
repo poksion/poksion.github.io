@@ -16,7 +16,7 @@ tags: 프로그래밍
 
 ## Widget vs Observer Synchronization
 
-[마틴 파울러의 MVP](/blog/2017/01/03/마틴파울러-mvp.html)에 대한 글에서도 말했지만, 마틴파울러는 View를 Widget과 Observer Synchronization의 두가지 측면으로 바라보고 나는 그것이 매우 훌륭한 관점이라고 생각한다. 그리고 뷰를 어떻게 바라보고 뷰를 어떻게 대하느냐에 따라서 [Supervising Controller](https://martinfowler.com/eaaDev/SupervisingPresenter.html)와 [Passive View](https://martinfowler.com/eaaDev/PassiveScreen.html)라는 패턴으로 프레젠터를 구분하는것 같다.
+[마틴 파울러의 MVP](/blog/2017/01/03/마틴파울러-mvp.html)에 대한 글에서도 말했지만, 마틴파울러는 View를 Widget과 Observer Synchronization의 두가지 측면으로 바라보고 나는 그것이 매우 훌륭한 관점이라고 생각한다. 그리고 뷰를 어떻게 바라보고 뷰를 어떻게 대하느냐에 따라서 [Supervising Controller](https://martinfowler.com/eaaDev/SupervisingPresenter.html)와 [Passive View](https://martinfowler.com/eaaDev/PassiveScreen.html)라는 패턴으로 프레젠터를 구분하는것 같다.
 
 ## Supervising Controller
 
@@ -35,7 +35,7 @@ Passive View 패턴을 구성하는 프레젠터는 Supervising Controller의 �
 
 ## 내 경험상의 Best practice
 
-[Presenter와 ViewController](/blog/2016/06/29/presenter와-viewcontroller.html)에서 말했지만, 나에게 있어서 일반적인 Presenter는 Supervising Controller 역할을 한다 - 이때 Activity나 Fragment가 구현하고 있는 View는 Observer Synchronization 역할을 한다.
+[Presenter와 ViewController](/blog/2016/06/29/presenter와-viewcontroller.html)에서 말했지만, 나에게 있어서 일반적인 Presenter는 Supervising Controller 역할을 한다 - 이때 Activity나 Fragment가 구현하고 있는 View는 Observer Synchronization 역할을 한다.
 
 만일 Widget 단위에서의 Presenter를 구성하여 Passive View 패턴을 구현한다고 하면, 그때는 Presenter를 ViewController라는 이름으로 짓는다.
 

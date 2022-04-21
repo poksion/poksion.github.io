@@ -1,5 +1,10 @@
 # encoding: utf-8
 require 'kramdown'
+require 'cgi'
+
+def encode(url)
+    return url.gsub(".md", ".html")
+end
 
 def convert
     Dir[File.expand_path("mdblog/blog/*.md", File.expand_path("../../", __dir__))].each do | file |
@@ -24,10 +29,10 @@ def convert
         front_matters = front_matters + "---\n"
 
         # yyyymmddhhmm
-        reg_exp_md_date = /(\d\d\d\d)(\d\d)(\d\d)\d\d\d\d-/
+        reg_exp_md_date = /(\d\d\d\d)(\d\d)(\d\d)\d\d\d\d-(.*?.md)/
 
         refined_content = contents.sub(reg_exp_title, '').sub(reg_exp_tag, '').gsub("_img/", "/assets/img/post/")
-        refined_content = refined_content.gsub(reg_exp_md_date, "/blog/\\1/\\2/\\3/").gsub(".md)", ".html)")
+        refined_content = refined_content.gsub(reg_exp_md_date){ "/blog/#{$1}/#{$2}/#{$3}/" + encode($4) }
         refined_content = refined_content.gsub("<pre>panel-start</pre>", "<div class=\"panel\">");
         refined_content = refined_content.gsub("<pre>panel-end</pre>", "</div>");
         refined_content = refined_content.gsub("<pre>panel-hide-start</pre>", "\n<!--");

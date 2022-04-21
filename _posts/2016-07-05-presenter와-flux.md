@@ -9,7 +9,7 @@ tags: 프로그래밍  안드로이드  하드보일드
 
 Presenter를 쓰면서 많은 경우에 쭉쟁이 처럼 하는일이 없는 클래스라는 느낌을 가진다. 특히나 모델이 callback을 주는 경우라면, ``presenter의 주요 작업``이 1. model의 결과를 view의 결과로 변환하는일, 2. 모델과 뷰를 잘 호출해주는일 로 일이 단순해진다.
 
-UI를 다루는 facebook의 다른사람들도 그렇게 느꼈는지, 과감하게 Presenter를 사용하지 않고 "단방향의 데이터흐름"으로 그 역할을 대신하는 방법을 공유했는데, 그것이 [Flux](https://facebook.github.io/flux/)이다. 내가 [별로](/blog/2016/06/29/presenter와-viewcontroller.md#bus-is-not-good)라고 했던 이벤트 디스패쳐 (혹은 구현체로써 Event bus)방식을 사용하여 단방향 데이터 흐름을 구현했고, 뷰와 모델이 디스패쳐를 통한 데이타 주고 받음을 직접하도록 구현함으로써 중간 Presenter를 생략했다.
+UI를 다루는 facebook의 다른사람들도 그렇게 느꼈는지, 과감하게 Presenter를 사용하지 않고 "단방향의 데이터흐름"으로 그 역할을 대신하는 방법을 공유했는데, 그것이 [Flux](https://facebook.github.io/flux/)이다. 내가 [별로](/blog/2016/06/29/presenter와-viewcontroller.html#bus-is-not-good)라고 했던 이벤트 디스패쳐 (혹은 구현체로써 Event bus)방식을 사용하여 단방향 데이터 흐름을 구현했고, 뷰와 모델이 디스패쳐를 통한 데이타 주고 받음을 직접하도록 구현함으로써 중간 Presenter를 생략했다.
 
 <div align="center"><img src="https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png"/></div>
 

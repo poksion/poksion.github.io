@@ -13,7 +13,7 @@ tags: 프로그래밍  하드보일드
   * non-type
   * template
 
-type은 흔히 typename T (혹은 class T)로 쓰는것이고, non-type은 컴파일타임시에 알수있는 상수형 값을, 그리고 template은 바로 밑에 포스팅한 [TTP](/blog/2007/07/29/템플릿템플릿-인자.html)를 의미한다.
+type은 흔히 typename T (혹은 class T)로 쓰는것이고, non-type은 컴파일타임시에 알수있는 상수형 값을, 그리고 template은 바로 밑에 포스팅한 [TTP](/blog/2007/07/29/템플릿템플릿-인자.html)를 의미한다.
 
 아래의 예를 보면 non-type형의 템플렛 인자가 어떤것인지 명확히 알수 있다. 
 

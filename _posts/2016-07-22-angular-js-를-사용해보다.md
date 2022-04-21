@@ -209,7 +209,7 @@ result-loader directive의 모습인데, template를 통해 UI를 결정할 수 
 
 ### AngularJS와 Flux
 
-Clean Architecture는 매우 훌륭하게 여러 아키텍쳐들을 잘 정리한것 같다. 간단한 앱에서의 Flux 패턴 사용도 꽤 편리하다.(flux에 대해서는 예전에 [간단히 적은글](/blog/2016/07/05/presenter와-flux.html)이 있다.) 관련된 자료를 사내 모임에서 간단하게 발표한것이 있다.
+Clean Architecture는 매우 훌륭하게 여러 아키텍쳐들을 잘 정리한것 같다. 간단한 앱에서의 Flux 패턴 사용도 꽤 편리하다.(flux에 대해서는 예전에 [간단히 적은글](/blog/2016/07/05/presenter와-flux.html)이 있다.) 관련된 자료를 사내 모임에서 간단하게 발표한것이 있다.
 
 <div style="text-align: center;">
 
