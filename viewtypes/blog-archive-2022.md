@@ -1,9 +1,0 @@
----
-layout: archive
-permalink: /blog/archive/2022
-year: 2022
----
-
-v4로 poklog 부활.
-
-방치되어 있던 블로그를 다시금 잘 활용해 보려고 한다. 기회가 된다면 아이와 함께 블로그도 했으면 좋겠다.

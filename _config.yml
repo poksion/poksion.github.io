@@ -36,7 +36,7 @@ github_username:  poksion
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll/tagging
+#  - jekyll/tagging
 #  - jekyll-paginate-v2
 
 # Pagination Settings
@@ -50,8 +50,8 @@ plugins:
 #  sort_reverse: true
 
 # tagging
-tag_page_layout: tag
-tag_page_dir: blog/_tag
+# tag_page_layout: tag
+# tag_page_dir: blog/_tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
