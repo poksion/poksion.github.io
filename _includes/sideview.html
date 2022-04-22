@@ -7,24 +7,12 @@
     {% endfor %}
 </ul>
 
+<!-- tag -->
 <div class="panel">
     <h5>태그</h5>
     <ul class="side-nav">
+        {% for tag in site.tags %}
+        <li><a href="/blog/tag/{{ tag[0] }}">{{ tag[0] }} ({{ tag[1] | size }})</a></li>
+        {% endfor %}
     </ul>
 </div>
-
-<!--
-    // archives
-    sb.append("<h5>글 보관함 <small>(").append(contentStore.getMdsSize()).append(")</small></h5><ul class=\"side-nav\">");
-    sb.append(getArchivePart(contentStore)).append("</ul>\n");
-
-    // panel start
-    sb.append("<div class=\"panel\">");
-
-    // tags
-    sb.append("<h5>태그</h5><ul class=\"side-nav\">");
-    sb.append(getTagPart(formatManager.getUrlFormatter(), contentStore)).append("</ul>\n");
-
-    // panel end
-    sb.append("</div>");
--->
