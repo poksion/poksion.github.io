@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="ko" > <![endif]-->
+<html class="no-js" lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pok with passion</title>
+
+  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <link rel="stylesheet" href="/assets/foundation/css/normalize.css">
+  <link rel="stylesheet" href="/assets/foundation/css/foundation.min.css">
+  <script src="/assets/foundation/js/modernizr.js"></script>
+
+  <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/zenburn.min.css">
+  <script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script type="text/javascript">
+    // iframe resize
+    function autoResize(i) {
+      window.addEventListener('message', function (event) {
+        if (isNaN(event.data)) return // only accept something which can be parsed as a number
+        var height = parseInt(event.data);
+        (i).height = height + 20
+      }, false)
+    }
+  </script>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
+
+  <!-- override style -->
+  <style type="text/css">
+    li {
+      margin-left: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- facebook comments plugin -->
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0]
+      if (d.getElementById(id)) return
+      js = d.createElement(s); js.id = id
+      js.src = "//connect.facebook.net/ko_KR/sdk.js#xfbml=1&appId=253427011511184&version=v2.0"
+      fjs.parentNode.insertBefore(js, fjs)
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- body content here -->
+
+  <!-- Nav Bar -->
+  <div class="row">
+    <div class="large-6 columns">
+      <h1 style="padding: 10px 0px 10px 0px;">It's just like pok<small>&nbsp;&nbsp;&nbsp; version4</small></h1>
+    </div>
+    <div class="large-6 columns">
+      <div class="nav-bar right">
+        <ul class="button-group">
+          <li><a href="/blog" class="button">poklog version4</a></li>
+          <li><a href="/projects" class="button">my projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+  </div>
+  <!-- End Nav -->
+
+  <!-- Main Page Content and Sidebar -->
+  <div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+      <div class="row">
+        <div class="large-12 columns">
+          <article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 itemprop="name headline">태그 - 하드보일드</h1>
+  </header>
+
+  <br />
+
+  <ul>
+    
+    <li><a href="/blog/2016/09/08/android-instrumented-unittests.html">2016-09-08 Android Instrumented Unit Tests</a></li>
+    
+    <li><a href="/blog/2016/09/08/gradle-%EB%8F%99%EC%A0%81-task-%EB%A7%8C%EB%93%A4%EA%B8%B0.html">2016-09-08 Gradle 동적 task 만들기</a></li>
+    
+    <li><a href="/blog/2016/07/05/presenter%EC%99%80-flux.html">2016-07-05 Presenter와 Flux</a></li>
+    
+    <li><a href="/blog/2016/06/28/android-theme%EC%99%80-style.html">2016-06-28 Android Theme와 Style</a></li>
+    
+    <li><a href="/blog/2016/06/25/appcompat-%EC%82%BD%EC%A7%88%EA%B8%B0.html">2016-06-25 AppCompat 삽질기</a></li>
+    
+    <li><a href="/blog/2016/06/20/ocp-%EC%99%80-data-driven-approach.html">2016-06-20 OCP와 Data Driven Approach</a></li>
+    
+    <li><a href="/blog/2016/06/14/srp%EC%99%80-kludge-class.html">2016-06-14 SRP와 kludge class</a></li>
+    
+    <li><a href="/blog/2015/07/10/actor-reactor.html">2015-07-10 Actor-Reactor</a></li>
+    
+    <li><a href="/blog/2015/07/01/sys-v-init.html">2015-07-01 SysVinit</a></li>
+    
+    <li><a href="/blog/2015/07/01/android-custom-attr.html">2015-07-01 Android custom-attr</a></li>
+    
+    <li><a href="/blog/2015/03/27/fat-model-%EA%B3%BC-service.html">2015-03-27 Fat Model과 Service</a></li>
+    
+    <li><a href="/blog/2014/07/17/%EC%BD%94%EB%93%9C-%EC%9E%91%EC%84%B1%EA%B3%BC-%EA%B4%80%EB%A0%A8%EB%90%9C-%EC%B5%9C%EA%B7%BC-%EC%A1%B0%EA%B0%81-%EC%83%9D%EA%B0%81%EB%93%A4.html">2014-07-17 코드 작성과 관련된 최근 조각 생각들</a></li>
+    
+    <li><a href="/blog/2014/05/23/%EC%9D%98%EC%A1%B4%EC%84%B1%EC%9D%80-%EA%B3%84%EC%82%B0%EB%90%98%EC%96%B4%EC%A0%B8%EC%95%BC-%ED%95%9C%EB%8B%A4-part2.html">2014-05-23 의존성은 계산되어져야 한다 part 2</a></li>
+    
+    <li><a href="/blog/2014/05/16/%EC%9D%BC%EB%B0%98%ED%99%94%ED%95%A8-vs-%EC%95%9E%EC%9C%BC%EB%A1%9C%EC%9D%98-%EA%B2%BD%EC%9A%B0%EB%A5%BC-%EC%83%9D%EA%B0%81%ED%95%A8.html">2014-05-16 일반화함과 앞으로의 경우를 생각함의 차이</a></li>
+    
+    <li><a href="/blog/2014/05/15/%EC%9D%98%EC%A1%B4%EC%84%B1%EC%9D%80-%EA%B3%84%EC%82%B0%EB%90%98%EC%96%B4%EC%A0%B8%EC%95%BC-%ED%95%9C%EB%8B%A4.html">2014-05-15 의존성은 계산되어져야 한다</a></li>
+    
+    <li><a href="/blog/2014/05/08/spring-mvc-%EC%99%80-app-engine.html">2014-05-08 Spring MVC와 Google App Engine</a></li>
+    
+    <li><a href="/blog/2014/03/17/feature-envy.html">2014-03-17 Feature Envy</a></li>
+    
+    <li><a href="/blog/2008/07/24/%ED%83%80%EC%9E%85%EB%A6%AC%EC%8A%A4%ED%8A%B8%EC%99%80-%EC%9E%AC%EA%B7%80%EC%A0%81%EC%83%81%EC%86%8D.html">2008-07-24 타입리스트와 재귀적 상속</a></li>
+    
+    <li><a href="/blog/2008/05/20/crtp-member-func-ptr.html">2008-05-20 CRTP와 멤버함수포인터</a></li>
+    
+    <li><a href="/blog/2008/02/29/%EB%B9%84%ED%8A%B8%EC%97%B0%EC%82%B0%EC%9E%90%EB%A5%BC-%ED%86%B5%ED%95%9C-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EA%B5%AC%ED%98%84.html">2008-02-29 비트연산자를 통한 프로퍼티 구현</a></li>
+    
+    <li><a href="/blog/2007/12/15/%ED%96%89%EB%B2%A1%ED%84%B0%EB%8A%94-%ED%96%89%EC%9D%B4-%EC%B6%95-part2.html">2007-12-15 행벡터는 행이 축 Part2</a></li>
+    
+    <li><a href="/blog/2007/12/02/%EC%9D%BC%EC%B0%A8%EA%B2%B0%ED%95%A9%EA%B3%BC-%EC%A2%8C%ED%91%9C%EA%B3%84.html">2007-12-02 일차결합과 좌표계</a></li>
+    
+    <li><a href="/blog/2007/12/01/%EA%B7%B8%EB%9E%98%ED%94%84-%EA%B9%8A%EC%9D%B4%EC%9A%B0%EC%84%A0-%ED%83%90%EC%83%89.html">2007-12-01 그래프 : 깊이우선 탐색</a></li>
+    
+    <li><a href="/blog/2007/11/26/%EA%B7%B8%EB%9E%98%ED%94%84-%ED%91%9C%ED%98%84.html">2007-11-26 그래프 : 표현</a></li>
+    
+    <li><a href="/blog/2007/11/23/%EB%A3%A8%EB%B9%84%EC%99%80-%EC%98%A4%EB%A6%AC%ED%83%80%EC%9E%85.html">2007-11-23 루비와 오리타입</a></li>
+    
+    <li><a href="/blog/2007/11/23/cpp-vector-assign.html">2007-11-23 C++ : vector / assign</a></li>
+    
+    <li><a href="/blog/2007/08/24/operator-assign.html">2007-08-24 operator=</a></li>
+    
+    <li><a href="/blog/2007/08/19/crtp.html">2007-08-19 묘하게 되풀이되는 템플릿 패턴(CRTP : Curiously Recurring Template Pattern)</a></li>
+    
+    <li><a href="/blog/2007/08/19/%EC%9D%B5%EB%AA%85%EA%B3%B5%EC%9A%A9%EC%B2%B4%EC%99%80-%EC%9D%B5%EB%AA%85%EA%B5%AC%EC%A1%B0%EC%B2%B4.html">2007-08-19 익명 공용체와 익명 구조체 ( anonymous union / anonymous structure )</a></li>
+    
+    <li><a href="/blog/2007/08/09/template-nontype-parameter.html">2007-08-09 Template Non-Type Parameter</a></li>
+    
+    <li><a href="/blog/2007/07/29/%ED%85%9C%ED%94%8C%EB%A6%BF%ED%85%9C%ED%94%8C%EB%A6%BF-%EC%9D%B8%EC%9E%90.html">2007-07-29 template template parameter (TTP, 템플릿템플릿 인자)</a></li>
+    
+    <li><a href="/blog/2006/06/26/pkg-config.html">2006-06-26 pkg-config</a></li>
+    
+  </ul>
+
+</article>
+        </div>
+      </div>
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+    <aside class="large-3 columns">
+      <div class="row">
+        <div class="large-12 columns"><!-- archives -->
+<h5>글 보관함 <small>250</small></h5>
+<ul class="side-nav">
+    
+    
+    <li><a href="/blog/archive/2022">2022 (1)</a></li>
+    
+    <li><a href="/blog/archive/2018">2018 (2)</a></li>
+    
+    <li><a href="/blog/archive/2017">2017 (17)</a></li>
+    
+    <li><a href="/blog/archive/2016">2016 (35)</a></li>
+    
+    <li><a href="/blog/archive/2015">2015 (19)</a></li>
+    
+    <li><a href="/blog/archive/2014">2014 (16)</a></li>
+    
+    <li><a href="/blog/archive/2013">2013 (5)</a></li>
+    
+    <li><a href="/blog/archive/2012">2012 (1)</a></li>
+    
+    <li><a href="/blog/archive/2011">2011 (5)</a></li>
+    
+    <li><a href="/blog/archive/2010">2010 (12)</a></li>
+    
+    <li><a href="/blog/archive/2009">2009 (16)</a></li>
+    
+    <li><a href="/blog/archive/2008">2008 (26)</a></li>
+    
+    <li><a href="/blog/archive/2007">2007 (56)</a></li>
+    
+    <li><a href="/blog/archive/2006">2006 (39)</a></li>
+    
+</ul>
+
+<!-- tag -->
+<div class="panel">
+    <h5>태그</h5>
+    <ul class="side-nav">
+        
+        <li><a href="/blog/tag/일상이야기">일상이야기 (93)</a></li>
+        
+        <li><a href="/blog/tag/프로그래밍">프로그래밍 (108)</a></li>
+        
+        <li><a href="/blog/tag/컴퓨터">컴퓨터 (68)</a></li>
+        
+        <li><a href="/blog/tag/하드보일드">하드보일드 (32)</a></li>
+        
+        <li><a href="/blog/tag/문화산업">문화산업 (5)</a></li>
+        
+        <li><a href="/blog/tag/영화">영화 (3)</a></li>
+        
+        <li><a href="/blog/tag/영어공부">영어공부 (1)</a></li>
+        
+        <li><a href="/blog/tag/흥미">흥미 (6)</a></li>
+        
+        <li><a href="/blog/tag/회사">회사 (9)</a></li>
+        
+        <li><a href="/blog/tag/잘보여주기">잘보여주기 (6)</a></li>
+        
+        <li><a href="/blog/tag/책">책 (15)</a></li>
+        
+        <li><a href="/blog/tag/성질">성질 (10)</a></li>
+        
+        <li><a href="/blog/tag/수학">수학 (10)</a></li>
+        
+        <li><a href="/blog/tag/여행">여행 (1)</a></li>
+        
+        <li><a href="/blog/tag/서울">서울 (1)</a></li>
+        
+        <li><a href="/blog/tag/철학">철학 (1)</a></li>
+        
+        <li><a href="/blog/tag/날씨">날씨 (1)</a></li>
+        
+        <li><a href="/blog/tag/여유">여유 (5)</a></li>
+        
+        <li><a href="/blog/tag/커피">커피 (2)</a></li>
+        
+        <li><a href="/blog/tag/천체관측">천체관측 (2)</a></li>
+        
+        <li><a href="/blog/tag/Digital">Digital (5)</a></li>
+        
+        <li><a href="/blog/tag/Nomad">Nomad (5)</a></li>
+        
+        <li><a href="/blog/tag/조각메모">조각메모 (5)</a></li>
+        
+        <li><a href="/blog/tag/경제">경제 (1)</a></li>
+        
+        <li><a href="/blog/tag/안드로이드">안드로이드 (6)</a></li>
+        
+        <li><a href="/blog/tag/알고리즘">알고리즘 (1)</a></li>
+        
+        <li><a href="/blog/tag/안티클린코드">안티클린코드 (1)</a></li>
+        
+    </ul>
+</div></div>
+    </aside>
+    <!-- End Sidebar -->
+
+  </div>
+  <!-- End Main Content and Sidebar -->
+
+  <!-- Footer -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns"><p>
+    &copy; Copyright 2006-2022 <a href="https://twitter.com/poksion">pok</a>,
+    All Rights Reserved.
+</p></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/foundation/js/jquery.js"></script>
+  <script src="/assets/foundation/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga')
+    ga('create', 'UA-2729685-2', 'poksion.net')
+    ga('send', 'pageview');
+  </script>
+
+  <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs) } }(document, 'script', 'twitter-wjs');</script>
+
+</body>
+
+</html>

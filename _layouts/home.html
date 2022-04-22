@@ -19,7 +19,9 @@ layout: default
   </div>
 
   <p>
-    {{ currentPage | tags }}
+    {% for tag in currentPage.tags %}
+    <a href="/blog/tag/{{ tag }}">{{ tag }}</a>&nbsp;
+    {% endfor %}
   </p>
 
   <div class="small-12 columns">

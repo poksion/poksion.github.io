@@ -50,7 +50,7 @@ plugins:
 
 # tagging
 tag_page_layout: tag
-tag_page_dir: blog/tag
+tag_page_dir: blog/_tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
