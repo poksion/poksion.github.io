@@ -18,11 +18,10 @@ layout: default
     {{ currentPage.content }}
   </div>
 
-  <p>
-    {% for tag in currentPage.tags %}
-    <span class="secondary round label"><a href="/blog/tag/{{ tag }}">{{ tag }}</span></a>
-    {% endfor %}
-  </p>
+  <br />
+  {% for tag in currentPage.tags %}
+  <span class="secondary round label"><a href="/blog/tag/{{ tag }}">{{ tag }}</span></a>
+  {% endfor %}
 
   <script src="https://utteranc.es/client.js" repo="poksion/poksion.github.io" issue-term="{{ currentPage.url }}"
     theme="github-light" crossorigin="anonymous" async></script>
