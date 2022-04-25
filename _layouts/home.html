@@ -20,9 +20,12 @@ layout: default
 
   <p>
     {% for tag in currentPage.tags %}
-    <a href="/blog/tag/{{ tag }}">{{ tag }}</a>&nbsp;
+    <span class="secondary round label"><a href="/blog/tag/{{ tag }}">{{ tag }}</span></a>
     {% endfor %}
   </p>
+
+  <script src="https://utteranc.es/client.js" repo="poksion/poksion.github.io" issue-term="{{ currentPage.url }}"
+    theme="github-light" crossorigin="anonymous" async></script>
 
   <div class="small-12 columns">
     <div class="row">
