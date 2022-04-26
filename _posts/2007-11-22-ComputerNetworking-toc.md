@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Computer Networking"
+title: "Computer Networking TOC"
 date: 2007-11-22 03:02:00 +0900
 author: poksion
 categories: blog

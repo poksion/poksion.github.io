@@ -62,5 +62,6 @@ def convert
 end
 
 if __FILE__ == $0
-    convert
+    # converting completed. do nothing
+    # convert
 end

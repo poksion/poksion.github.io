@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Designing the User Interface (4th Edition)"
+title: "Designing the User Interface (4th Edition) TOC"
 date: 2007-09-27 21:24:00 +0900
 author: poksion
 categories: blog

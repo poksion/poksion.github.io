@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "병원건축 - 그 아름다운 당연성 / 디자인의 디자인"
+title: "Computer Networking"
 date: 2007-10-20 17:47:00 +0900
 author: poksion
 categories: blog
 tags: 책
 ---
 
-<div class="imageblock left" style="float: left; margin-right: 10px;"><img src="http://ecx.images-amazon.com/images/I/51Y9E4HRGBL._AA240_.jpg"></div>
+<div class="imageblock left" style="float: left; margin-right: 10px;"><img src="/assets/img/book/51Y9E4HRGBL._AA240_.jpg"></div>
 
 학교 네트워크 교재. 아시아판은 옆의 그림과 다른 표지를 쓴다.( 갈색의 좀 굴딱시 한것을 쓴다.) 4판이 나온지가 얼마 안되서 교재를 구하는 시점에서 ( 10월 초던가..) 광화문 교보문고에서는 구하지 못했고 학교 영풍문고에서 구했다. 책의 내용은 무척 좋다. 네트워크의 전반적인 내용을 다뤘는데 그 하나하나가 어설프게 휙~ 스럽지 않고 아주 만족할만한 내용들로 채워져 있다. 위키에 인덱스 정리를 해놓았다. (```주``` : 현재 블로그에 [인덱스 정리](/blog/2007/11/22/ComputerNetworking-toc.html)를 옮려 놨다.)
 
