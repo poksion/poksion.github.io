@@ -7,7 +7,7 @@ categories: blog
 tags: 책
 ---
 
-<div class="imageblock left" style="float: left; margin-right: 10px;"><img src="http://images.amazon.com/images/P/0321197860.01.MZZZZZZZ.gif"></div>
+<div class="imageblock left" style="float: left; margin-right: 10px;"><img src="https://images.amazon.com/images/P/0321197860.01.MZZZZZZZ.gif"></div>
 
 학교 HCI 교재. 사기는 아깝고 틈틈히 빌려봐야 겠다.(사기 아깝다는 것은 책의 내용문제가 아니다. 이책을 사면 몇번이나 다시볼까라는 질문에 대한 답이 책을 사기는 아깝다인것 뿐이다.)
 
