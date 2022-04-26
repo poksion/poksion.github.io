@@ -7,7 +7,7 @@ categories: blog
 tags: 책  컴퓨터
 ---
 
-<div class="imageblock left" style="float: left; margin-right: 10px;"><img src="http://images.amazon.com/images/P/0596008031.01.MZZZZZZZ.gif"></div>
+<div class="imageblock left" style="float: left; margin-right: 10px;"><img src="/assets/img/book/0596008031.01.MZZZZZZZ.jpg"></div>
 
 학교 HCI 부교재. 인터페이스를 몇가지 패턴으로 분류하여 제시하고 있다. 책의 구성이나 내용이 무척 훌륭하다.
 
