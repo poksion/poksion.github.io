@@ -2,6 +2,14 @@
 
 ## Jekyll 기반 Github Page 블로그
 
+### Git 설정
+
+post 파일이 한글 이름일 가능성이 매우 높다. 윈도우 git은 한글파일이 깨지기 때문에 아래의 설정이 필요
+
+```
+git config core.quotepath false
+```
+
 ### Gemfile.lock
 
 어느 컴퓨터에서 쓸수 있도록 Gemfile.lock 파일을 커밋하지 말것
