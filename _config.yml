@@ -75,4 +75,4 @@ plugins:
 # custom exclude item
 exclude:
   - scripts/
-  - viewtype-exp/
+  - legacy-files/
