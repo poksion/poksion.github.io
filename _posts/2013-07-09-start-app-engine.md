@@ -4,7 +4,7 @@ title: "Google App engine"
 date: 2013-07-09 16:35:00 +0900
 author: poksion
 categories: blog
-tags: 프로그래밍  잘보여주기  Digital Nomad
+tags: 프로그래밍 잘보여주기 DigitalNomad
 ---
 
 mdblog([poklog version3](http://poksion.net)의 블로깅 시스템)를 deploy할 환경을 찾아보고 있다. 그중에서 가장 유력한것중 하나가 Google App engine.

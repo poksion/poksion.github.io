@@ -4,7 +4,7 @@ title: "dev-helper"
 date: 2016-09-08 11:41:00 +0900
 author: poksion
 categories: blog
-tags: Digital Nomad  프로그래밍
+tags: DigitalNomad 프로그래밍
 ---
 명령어가 길어서 다 치기 귀찮거나 여러가지 유틸을 조합해서 알음알음 만들었던 스크립트들이 꽤 많아졌다. 어떤 스크립트들이 있는지 매번 까먹는다는게 문제라서, 스크립트의 활용방안을 적어놓은 단순 echo 모음 스크립트를 만들면서, 관련 내용을 정리해본다.
 

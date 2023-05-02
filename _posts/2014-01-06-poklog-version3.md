@@ -4,7 +4,7 @@ title: "poklog version 3"
 date: 2014-01-06 13:42:00 +0900
 author: poksion
 categories: blog
-tags: Digital Nomad  일상이야기  컴퓨터
+tags: DigitalNomad 일상이야기 컴퓨터
 ---
 웹을 통해 생각을 정리하고 공유해야겠다는 계획은 꽤나 오래전(그러니까.. 거의 7년전이구먼)에 만들어 실천에 옮겼었다. 그때는 위키라는 형식으로 작업물을 기록했었는데, [모니위키](http://kldp.net/projects/moniwiki)를 사용했었다. 현재는 그때의 자료들이 거의 남아있지 않지만, 이것을 poklog version1이라고 불러도 괜찮을것 같다.
 

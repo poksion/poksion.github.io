@@ -4,7 +4,7 @@ title: "Spring MVC와 Google App Engine"
 date: 2014-05-08 11:14:00 +0900
 author: poksion
 categories: blog
-tags: Digital Nomad  프로그래밍  하드보일드
+tags: DigitalNomad 프로그래밍 하드보일드
 ---
 
 회사 PaaS 인 cloulu가 서비스를 종료함에 따라 poklog 3의 새로운 안식처가 필요해졌다. [구글 앱엔진 관련글](/blog/2013/07/09/start-app-engine.html)에서도 언급했듯이 차기 PaaS로 구글 앱 엔진을 생각하고 있었고 웹 프레임워크로 Sinatra와 유사한 spark 프레임워크를 생각하고 있었는데, 자료가 많고 대중적이라는 장점때문에 Spring MVC와 Google App Engine 조합을 최종 선택하게 되었다.
