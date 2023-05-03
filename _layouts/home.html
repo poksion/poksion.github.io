@@ -6,7 +6,7 @@ layout: default
   <header>
     <h1 itemprop="name headline">{{ currentPage.title | escape }}</h1>
     <p>
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">{{ currentPage.author }}</span>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person" style="color:#008cba">{{ currentPage.author }}</span>
       &nbsp;|&nbsp;
       <time datetime="{{ currentPage.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ currentPage.date | date: "%b %-d, %Y" }}
