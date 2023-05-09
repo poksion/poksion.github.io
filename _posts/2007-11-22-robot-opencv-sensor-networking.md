@@ -5,6 +5,7 @@ date: 2007-11-22 01:59:00 +0900
 author: poksion
 categories: blog
 tags: 일상이야기  컴퓨터
+thumb: /assets/img/post/nxt-grap-the-red-ball.png
 ---
 
 교수님께서 학교를 어떻게 구워삶으셨는지는 모르겠지만, 진행중인 지능로봇의 입문이라는 과목에서 레고 마인드스톰 NXT / 블루투스 동글 / 무선 카메라 일체를 실습교재로 제공해주고 그와 관련된 수업을 진행한다. 그중에서 인상깊은것들이 OpenCV를 이용한 vision 처리(쉽게 말해, 로봇의 눈) 과 블루투스를 이용한 Sensor Networking(이것도 쉽게 말해, 로봇을 제어하기 위한 네트워크) 이다.
@@ -16,13 +17,26 @@ tags: 일상이야기  컴퓨터
 
 아래의 동영상은 비디오 디바이스로부터 입력받은 이미지를 OpenCV를 이용해 편집하여 빨간색 공만을 유효물체로 판단하게한 장면. 노트북에서 실행중인 VisionNXT의 오른쪽 상당화면이 로봇의 입력이 될 '처리된 Vision' 영상인데, 다른것은 다 까맣고 빨간공에만 해당하는 부분이 하얗게 나오고 그것의 중심이 빨간커서로 타겟팅 되어있다. 그리고 빨간공을 움직여서, Vision 함수가 제대로 동작하고 있는것을 확인하고 있다.
 
+{% if page.displayLegacy %}
 <object type='application/x-shockwave-flash' width="402" height="324" align='middle' classid='clsid:d27cdb6e-ae6d-11cf-96b8-444553540000' codebase='http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0'><param name='movie' value='http://flvs.daum.net/flvPlayer.swf?vid=e1NTNkHS9Os$' /><param name='allowScriptAccess' value='never' /><param name='allowFullScreen' value='false' /><embed src='http://flvs.daum.net/flvPlayer.swf?vid=e1NTNkHS9Os$' width="402" height="324" allowScriptAccess='never' type='application/x-shockwave-flash' allowFullScreen='false'></embed></object> <br /><br />
- 
+{% endif %}
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/11vNEQabNNU" frameborder="0" width="480" height="390"></iframe>
+</div>
+{% include box_note.html %}
 
 다음이 실제로 NXT Control Thread를 동작시켜서 로봇을 움직이는 장면.
 
+{% if page.displayLegacy %}
 <object codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" type="application/x-shockwave-flash" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" align="middle" height="324" width="402"><param name="_cx" value="10636"><param name="_cy" value="8573"><param name="FlashVars" value=""><param name="Movie" value="http://flvs.daum.net/flvPlayer.swf?vid=QyY_CvLm_K0$"><param name="Src" value="http://flvs.daum.net/flvPlayer.swf?vid=QyY_CvLm_K0$"><param name="WMode" value="Window"><param name="Play" value="-1"><param name="Loop" value="-1"><param name="Quality" value="High"><param name="SAlign" value=""><param name="Menu" value="-1"><param name="Base" value=""><param name="AllowScriptAccess" value="always"><param name="Scale" value="ShowAll"><param name="DeviceFont" value="0"><param name="EmbedMovie" value="0"><param name="BGColor" value=""><param name="SWRemote" value=""><param name="MovieData" value=""><param name="SeamlessTabbing" value="1"><param name="Profile" value="0"><param name="ProfileAddress" value=""><param name="ProfilePort" value="0"><param name="AllowNetworking" value="all"><param name="AllowFullScreen" value="true">
 <embed loop="true" menu="false" quality="high"  width="402" height="324"  type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" src="http://flvs.daum.net/flvPlayer.swf?vid=QyY_CvLm_K0$"></embed></object><br />
+{% endif %}
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/kwYurO5pGvY" frameborder="0" width="480" height="390"></iframe>
+</div>
+
 (동영상내 뻘짓 음성은 무시해주세요~ -_-)
 
 뭐.. 전체적인 감상을 해보자면,

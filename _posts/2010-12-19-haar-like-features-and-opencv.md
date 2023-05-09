@@ -32,7 +32,11 @@ OpenCV에서는 AdaBoost 알고리듬들중 GAB를 기본 알고리듬으로 사
 
 <div style="text-align: center;"><img src="/assets/img/post/gentle-adaboost.jpeg" alt="gab" style="width: 600px;" ><br /></div><br />
 
-앞으로 더 해보고 싶은것들 :<br /><ul><li>decision tree에서 information theory 공부. (AI 수업교재였던 <a href="http://www.amazon.com/Artificial-Intelligence-Structures-Strategies-Complex/dp/0321263189" target="_blank">Luger의 AI책</a>에 내용이 좀 있다.)</li><li>일반적인 파라미터의 CART 알고리듬 구현</li><li>AdaBoost의 일반적인 구현<br /></li></ul>
-<br/>
+앞으로 더 해보고 싶은것들 :
+<ul>
+    <li>decision tree에서 information theory 공부. (AI 수업교재였던 <a href="http://www.amazon.com/Artificial-Intelligence-Structures-Strategies-Complex/dp/0321263189" target="_blank">Luger의 AI책</a>에 내용이 좀 있다.)</li>
+    <li>일반적인 파라미터의 CART 알고리듬 구현</li>
+    <li>AdaBoost의 일반적인 구현</li>
+</ul>
 
 졸업 프로젝트로 했던 Face gesture recognition의 PT를 활용했는데, 개인적인 사진이 실려있는 부분을 제외한 대부분의 내용을 <a href="https://docs.google.com/leaf?id=0B4s_3OZRxYclMTFjZDJiNTMtODk1OC00MWQ5LWI0MzItNDVlNDcxZTE1NDNl&hl=en" target="_blank">구글닥스</a>에 올렸으니 관심있으신 분은 참고하시길.
