@@ -7,19 +7,13 @@ categories: blog
 tags: 하드보일드  프로그래밍
 thumb: /assets/img/post/srp-one.png
 ---
-
 <div class="small-12 columns">
-    <div class="row">
-        <div class="small-4 columns">
-            <img src="/assets/img/post/srp-one.png"/>
-        </div>
-        <div class="small-8 columns">
-<p>
+    <img src="/assets/img/post/srp-one.png" style="float: left;  margin-right: 15px; margin-bottom: 10px;" />
+    <p>
 SRP는 The Single Responsibility Principle을 말하며, 그 컨셉을 잘 정리해서 엉클 밥아저씨가 제공하고 있는 문서 제목이기도 하다. 현재 원본 링크는 없는것 같고 <a href="https://web.archive.org/web/20150202200348/http://www.objectmentor.com/resources/articles/srp.pdf">web archive</a>에서 pdf를 다운 받아 볼 수 있다. (<a href="https://www.amazon.com/Agile-Principles-Patterns-Practices-C/dp/0131857258/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=">Agile Principles, Patterns, and Practices in C#</a> Charter8 에도 소개되어 있다.)
-</p>
-        </div>
-    </div>
+    </p>
 </div>
+
 {% include box_note.html %}
 
 ### 문서의 구조
