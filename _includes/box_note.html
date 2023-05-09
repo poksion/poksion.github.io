@@ -1,3 +1,6 @@
 <div style="color: #888888; margin-top: 5px; margin-bottom: 15px;">
-  &nbsp;&nbsp;&#91; {{ include.note }} &#93;
+  &nbsp;&nbsp;
+  {% if include.note %}
+  &#91; {{ include.note }} &#93;
+  {% endif %}
 </div>

@@ -5,12 +5,24 @@ date: 2016-06-14 11:57:00 +0900
 author: poksion
 categories: blog
 tags: 하드보일드  프로그래밍
+thumb: /assets/img/post/srp-one.png
 ---
 
-SRP는 The Single Responsibility Principle을 말하며, 그 컨셉을 잘 정리해서 엉클 밥아저씨가 제공하고 있는 문서 제목이기도 하다.
+<div class="small-12 columns">
+    <div class="row">
+        <div class="small-4 columns">
+            <img src="/assets/img/post/srp-one.png"/>
+        </div>
+        <div class="small-8 columns">
+<p>
+SRP는 The Single Responsibility Principle을 말하며, 그 컨셉을 잘 정리해서 엉클 밥아저씨가 제공하고 있는 문서 제목이기도 하다. 현재 원본 링크는 없는것 같고 <a href="https://web.archive.org/web/20150202200348/http://www.objectmentor.com/resources/articles/srp.pdf">web archive</a>에서 pdf를 다운 받아 볼 수 있다. (<a href="https://www.amazon.com/Agile-Principles-Patterns-Practices-C/dp/0131857258/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=">Agile Principles, Patterns, and Practices in C#</a> Charter8 에도 소개되어 있다.)
+</p>
+        </div>
+    </div>
+</div>
+{% include box_note.html %}
 
-문서의 구조
---------
+### 문서의 구조
 
  * 소개
      * 개념 주창자 및 유사 개념 : cohesion
@@ -26,8 +38,9 @@ SRP는 The Single Responsibility Principle을 말하며, 그 컨셉을 잘 정�
      * business rules와 persistence control이 함께 있을때
  * 결론
 
-책임이란 무엇인가
--------------
+{% include box_note.html %}
+
+### 책임이란 무엇인가
 
 문서에서는 ``변경``과 책임을 강한 상관관계로 본다. 심지어
 
@@ -37,8 +50,9 @@ SRP는 The Single Responsibility Principle을 말하며, 그 컨셉을 잘 정�
 
 따라서, 일종의 change-set(commit상의 change-set와 유사한 역할의 개념)을 함께 고민하는 것이 SRP를 준수하는 설계에 도웅이 될것이다. (이때의 change-set은 ``정책적인 요소`` 뿐만 아니라 ``소프트웨어의 구조적인 의존성``까지 포함한 개념이다.)
 
-Klugde class <a name="klugde-class" ></a>
-------------
+{% include box_note.html %}
+
+### Klugde class
 
 > We may view the ModemImplementation class as a ``kludge class``, or a wart; however, notice that all dependencies flow away from it. ``Nobody need depend upon this class``. Nobody except main needs to know that it exists. Thus, we've put the ugly bit behind a fence. It's ugliness need not leak out and pollute the rest of the application
 
