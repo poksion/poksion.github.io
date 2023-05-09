@@ -48,7 +48,7 @@ SRP는 The Single Responsibility Principle을 말하며, 그 컨셉을 잘 정�
 
 라고 할 정도. 덧붙여 하나의 책임을 개념적인 하나의 책임이라고만 "rigidity"하게 결정하면 "needless complexity"문제에 봉착할 수 있다고 주의를 당부한다.
 
-따라서, 일종의 change-set(commit상의 change-set와 유사한 역할의 개념)을 함께 고민하는 것이 SRP를 준수하는 설계에 도웅이 될것이다. (이때의 change-set은 ``정책적인 요소`` 뿐만 아니라 ``소프트웨어의 구조적인 의존성``까지 포함한 개념이다.)
+따라서, 일종의 change-set(코드 형상관리의 change-set와 유사한 역할의 개념)을 함께 고민하는 것이 SRP를 준수하는 설계에 도움이 될것이다. (이때의 change-set은 ``정책적인 요소`` 뿐만 아니라 ``소프트웨어의 구조적인 의존성``까지 포함한 개념이다.)
 
 {% include box_note.html %}
 
