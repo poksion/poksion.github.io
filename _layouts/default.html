@@ -5,7 +5,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pok with passion</title>
+  {% if page.title %}
+    <title>pok with passion - {{page.title}}</title>
+  {% else %}
+    <title>pok with passion</title>
+  {% endif %}
 
   <!-- feed -->
   <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="{{ site.title }} Feed">
