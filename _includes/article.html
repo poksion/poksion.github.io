@@ -1,0 +1,45 @@
+{% assign currentPage = include.currentPage %}
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <h1 itemprop="name headline">{{ currentPage.title | escape }}</h1>
+    <p>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person" style="color:#008cba">{{ currentPage.author }}</span>
+      &nbsp;|&nbsp;
+      <time datetime="{{ currentPage.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ currentPage.date | date: "%b %-d, %Y" }}
+      </time>
+    </p>
+  </header>
+
+  <div itemprop="articleBody">
+    {{ currentPage.content }}
+  </div>
+
+  <br />
+  {% for tag in currentPage.tags %}
+  <span class="secondary round label"><a href="/blog/tag/{{ tag }}">{{ tag }}</span></a>
+  {% endfor %}
+
+  <script src="https://utteranc.es/client.js" repo="poksion/poksion.github.io" issue-term="{{ currentPage.url }}"
+    theme="github-light" crossorigin="anonymous" async></script>
+
+  <div class="small-12 columns">
+    <div class="row">
+      <div class="small-6 columns">
+        {% if currentPage.next.url %}
+        <p class="text-right">
+          <a href="{{ currentPage.next.url }}">&laquo {{ currentPage.next.title }}</a>
+        </p>
+        {% endif %}
+      </div>
+      <div class="small-6 columns">
+        {% if currentPage.previous.url %}
+        <p class="text-left">
+          <a href="{{ currentPage.previous.url }}">{{ currentPage.previous.title }} &raquo</a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+</article>
