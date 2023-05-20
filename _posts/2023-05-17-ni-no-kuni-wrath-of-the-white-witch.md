@@ -4,7 +4,7 @@ title: "니노쿠니 : Wrath of the White Witch"
 date: 2023-05-17 21:45:00 +0900
 author: poksion
 categories: blog
-thumb: /assets/img/post/ninokuni-shot-1.jpg
+thumb: /assets/img/post/ninokuni-shot-1.png
 tags: 일상이야기 게임
 ---
 
