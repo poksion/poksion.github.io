@@ -23,7 +23,7 @@ Ni no Kuni Wrath of the White Witch™" %}
 
 ### Ivory Tower
 
-<div class="small-12 columns">
+<div class="large-12 columns">
     <img src="/assets/img/post/ninokuni-final-map.png" style="float: left; margin-right: 15px; margin-bottom: 10px;" />
     <p style="word-break: break-all;">
 하얀 마녀의 베이스캠프는 "아이보리 타워" 이다. 이 맵은 상당히 복잡하고 잡몹(?)들이 상당히 강해서, 별 생각없이 세이브 포인트를 기대하며 게임을 진행하다가는, 저장 못하고 날려 먹는 경우가 허다하다. 그래서 인터넷에서 맵을 찾아봤는데 <a href="https://www.ign.com/wikis/ni-no-kuni-wrath-of-the-white-witch/Ivory_Tower">IGN</a>에서 꽤 잘 정리한 지도가 있어서 그걸 토대로 진행 루트를 만들어 보았다. 
