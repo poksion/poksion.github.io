@@ -7,7 +7,7 @@
 post 파일이 한글 이름일 가능성이 매우 높다. 윈도우 git은 한글파일이 깨지기 때문에 아래의 설정이 필요
 
 ```
-git config core.quotepath false
+git config --global core.quotepath false
 ```
 
 ### Gemfile.lock
