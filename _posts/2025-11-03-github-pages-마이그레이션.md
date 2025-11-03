@@ -23,6 +23,7 @@ SSD 업그레이드를 진행하면서 기존 개발환경을 리뉴얼했다. (
 
 내용은 굉장히 간단하다.
  - Gemfile에서 github-pages를 지우고 표준 jekyll 페이지로 의존성을 구성하고, 로컬에서 테스트해본다.
- - Github repository 설정에서 기존의 github-pages를 Github Actions로 바꾼다. 그러면 자동으로 Jekyll을 탐지한다.
+ - Github repository 설정에서 기존의 github-pages를 Github Actions로 바꾼다. 그러면 자동으로 Jekyll을 탐지(혹은 추천)한다.
+ - Jekyll 아이콘을 클릭하면 .github/workflow/jeykyll.yml 로 Github Actions를 설정해준다. (수정내용을 github상에 바로 커밋 가능)
 
 2023년에 블로그를 쓴지 거의 2년만에 새로 포스팅하는 블로그이다. 사실 <a href="https://th-family.tistory.com/">가족블로그</a>를 만들어서 그곳에 블로그를 올리느라 신경을 못쓴것도 있는데, 아무래도 markdown 형식으로 정리하는 블로그가 더 간편하고 오래지속되는 면이 있어서 두개의 블로그를 같이 운영하려고 한다. 그래서.. 다시금 블로그를 열심히 써보는것을 다짐해본다.
