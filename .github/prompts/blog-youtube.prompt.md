@@ -16,6 +16,7 @@ Rules:
 <div class="video-container">
   <iframe src="URL" frameborder="0" width="480" height="390"></iframe>
 </div>
+<br/>
 ```
 
 - Replace only `URL` with the trimmed argument. Do not alter, reformat, or overwrite surrounding content.
