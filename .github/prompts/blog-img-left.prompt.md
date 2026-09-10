@@ -5,10 +5,15 @@ argument-hint: "이미지 URL을 입력하세요"
 agent: "agent"
 ---
 
-Insert a left-aligned image and paragraph HTML block into the file currently open in the editor, using the argument provided after `/blog-img-left` as the image `src` value.
+Insert a left-aligned image and paragraph HTML block into the file currently open in the editor. When the injected editor selection below is non-empty, run this command as if the user had invoked `/blog-img-left selected-text`; otherwise, use the argument provided after `/blog-img-left` as the image `src` value.
 
 Rules:
-- Treat the full text after `/blog-img-left` as the URL argument, trimming leading and trailing whitespace.
+- The current editor selection is:
+
+${selection}
+
+- If the injected selection is non-empty, use it as the URL argument and ignore any text after `/blog-img-left`.
+- Otherwise, treat the full text after `/blog-img-left` as the URL argument, trimming leading and trailing whitespace.
 - If the URL argument is empty, ask the user to provide a URL and do not edit the file.
 - Insert this exact block at the current cursor position:
 

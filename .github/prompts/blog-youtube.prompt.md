@@ -5,10 +5,15 @@ argument-hint: "YouTube embed URL을 입력하세요"
 agent: "agent"
 ---
 
-Insert a YouTube iframe embed block into the file currently open in the editor, using the argument provided after `/blog-youtube` as the iframe `src` value.
+Insert a YouTube iframe embed block into the file currently open in the editor. When the injected editor selection below is non-empty, run this command as if the user had invoked `/blog-youtube selected-text`; otherwise, use the argument provided after `/blog-youtube` as the iframe `src` value.
 
 Rules:
-- Treat the full text after `/blog-youtube` as the URL argument, trimming leading and trailing whitespace.
+- The current editor selection is:
+
+${selection}
+
+- If the injected selection is non-empty, use it as the URL argument and ignore any text after `/blog-youtube`.
+- Otherwise, treat the full text after `/blog-youtube` as the URL argument, trimming leading and trailing whitespace.
 - If the URL argument is empty, ask the user to provide a URL and do not edit the file.
 - Insert this exact block at the current cursor position:
 

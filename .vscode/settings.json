@@ -7,7 +7,7 @@
         "**/Thumbs.db": true
     },
     "chat.tools.terminal.autoApprove": {
-        "/^powershell(?:\\.exe)? -NoProfile -Command \"\\[TimeZoneInfo\\]::ConvertTimeBySystemTimeZoneId\\(\\[DateTimeOffset\\]::UtcNow, 'Korea Standard Time'\\)\\.ToString\\('yyyy-MM-dd HH:mm:ss zzz'\\)\"$/": {
+        "/^(?:powershell|pwsh)(?:\\.exe)? -NoProfile -Command \"\\[TimeZoneInfo\\]::ConvertTimeBySystemTimeZoneId\\(\\[DateTimeOffset\\]::UtcNow, 'Korea Standard Time'\\)\\.ToString\\('yyyy-MM-dd HH:mm:ss zzz'\\)\"$/": {
             "approve": true,
             "matchCommandLine": true
         },
