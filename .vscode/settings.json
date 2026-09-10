@@ -7,7 +7,11 @@
         "**/Thumbs.db": true
     },
     "chat.tools.terminal.autoApprove": {
-        "/^powershell\\.exe -NoProfile -Command \"\\[TimeZoneInfo\\]::ConvertTimeBySystemTimeZoneId\\(\\[DateTimeOffset\\]::UtcNow, 'Korea Standard Time'\\)\\.ToString\\('yyyy-MM-dd HH:mm:ss zzz'\\)\"$/": {
+        "/^powershell(?:\\.exe)? -NoProfile -Command \"\\[TimeZoneInfo\\]::ConvertTimeBySystemTimeZoneId\\(\\[DateTimeOffset\\]::UtcNow, 'Korea Standard Time'\\)\\.ToString\\('yyyy-MM-dd HH:mm:ss zzz'\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^.*\\$timestamp = \\[TimeZoneInfo\\]::ConvertTimeBySystemTimeZoneId\\(\\[DateTimeOffset\\]::UtcNow, 'Korea Standard Time'\\)\\.ToString\\('yyyy-MM-dd HH:mm:ss zzz'\\); \\$path = '_posts\\/\\d{4}-\\d{2}-[^']+\\.md'; Write-Output \"Timestamp: \\$timestamp\"; Write-Output \"Exists: \\$\\(Test-Path -LiteralPath \\$path -PathType Leaf\\).*$/": {
             "approve": true,
             "matchCommandLine": true
         }
