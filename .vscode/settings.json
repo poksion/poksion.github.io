@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "chat.tools.terminal.autoApprove": {
+        "/^powershell\\.exe -NoProfile -Command \"\\[TimeZoneInfo\\]::ConvertTimeBySystemTimeZoneId\\(\\[DateTimeOffset\\]::UtcNow, 'Korea Standard Time'\\)\\.ToString\\('yyyy-MM-dd HH:mm:ss zzz'\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    },
+    "window.commandCenter": false
+}
