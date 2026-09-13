@@ -18,7 +18,7 @@ ${selection}
 - Insert this exact block at the current cursor position:
 
 ```html
-<div class="imageblock left" style="float: left; margin-right: 10px;"><img src="URL" style="height: 200px;"></div>
+<div class="imageblock left" style="float: left; margin-right: 20px;"><img src="URL" style="height: 200px;"></div>
 ```
 
 - Replace only `URL` with the trimmed argument. Do not alter, reformat, or overwrite surrounding content.
