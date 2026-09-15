@@ -4,6 +4,7 @@ title: "XBOX Remote Play와 Lossless Scaling"
 date: 2026-09-14 23:23:36 +0900
 author: poksion
 categories: blog
+thumb: /assets/img/post/shortcuts-toggles.png
 tags: 게임
 ---
 
@@ -23,7 +24,7 @@ tags: 게임
 
 <div align="center"><img src="/assets/img/post/ls-setting.png"/></div>
 <br/>
-그런데, 이 LS Shortcut Toggle이 프로파일링이라 그런게 아니라, 그냥 냅다 Ctrl + Alt + S 단축키를 뿌려주는 확장이었다. 그래서 그러면, 차라리 키보드 단축키를 뿌려주는 확장을 설치하는게 낫지 않을까 하고 찾아보니.. 같은 AGMStudio의 `Shortcuts Toggles`이라는 확장이 존재했다. 중복구매 같아서 약각 빡쳤지만... 그래도 가격이 2000원대라 이 제품을 추가 구매하고 다른 단축키도 등록해서 사용하고 있다.
+그런데, 이 LS Shortcut Toggle이 프로파일링이라 그런게 아니라, 그냥 냅다 Ctrl + Alt + S 단축키를 뿌려주는 확장이었다. 그래서 그러면, 차라리 키보드 단축키를 뿌려주는 확장을 설치하는게 낫지 않을까 하고 찾아보니.. 같은 AGMStudio의 `Shortcuts Toggles`이라는 확장이 존재했다. 중복구매 같아서 약간 빡쳤지만... 그래도 가격이 2000원대라 이 제품을 추가 구매하고 다른 단축키도 등록해서 사용하고 있다.
 
 <div align="center"><img src="/assets/img/post/shortcuts-toggles.png"/></div>
 <br/>
