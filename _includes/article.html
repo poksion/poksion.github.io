@@ -1,7 +1,7 @@
 {% assign currentPage = include.currentPage %}
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <h1 itemprop="name headline">{{ currentPage.title | escape }}</h1>
+    <h1 itemprop="name headline"><a href="{{ currentPage.url }}" style="color: inherit; text-decoration: inherit;">{{ currentPage.title | escape }}</a></h1>
     <p>
       <span itemprop="author" itemscope itemtype="http://schema.org/Person" style="color:#008cba">{{ currentPage.author }}</span>
       &nbsp;|&nbsp;
