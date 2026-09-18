@@ -27,7 +27,10 @@ URL img=IMAGE_URL_OR_PATH
 - Trim leading and trailing whitespace from the URL and image values.
 - If the URL argument is empty, ask the user to provide a URL and do not edit the file.
 - If `img=` is present, use the text after `img=` as the image value. Do not include the `img=` prefix in the value.
-- If the injected selection is empty, ask the user to select the game title or text that should become the link label and do not edit the file.
+- If the injected selection is empty and `img=` is present, search the current file for a standalone line matching the supplied URL. Replace that URL line with the game-card include and use the frontmatter `title` value as the card `title`.
+- When using the no-selection fallback, preserve the frontmatter title exactly as its value, without the surrounding quote characters.
+- The no-selection fallback replacement must be exactly `{% include game_card.html url="URL" image = "IMAGE_URL_OR_PATH" title = "frontmatter title" %}` with the supplied values substituted.
+- If the injected selection is empty and the supplied URL cannot be found as a standalone line in the current file, ask the user to select the game title or URL line and do not edit the file.
 - When `img=` is absent, replace only the selected text with this Jekyll game-card include, leaving the `image` value empty:
 
 ```liquid
